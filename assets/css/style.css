@@ -18,6 +18,7 @@
     src: url("../fonts/Poppins-Regular.ttf");
 }
 
+
 /*===============================================
                 Header
 ================================================*/
@@ -43,7 +44,33 @@ header nav {
     color: #999;
     padding: 15px 50px;
     font-family: Cinzel-Medium;
+
+
 }
+
+header nav p {
+    display: inline-block;
+    /* margin-right: 88%; */
+}
+
+header nav ul {
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+    width: 8%;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 2%;
+}
+
+header ul li a img {
+    width: 2rem;
+    border-radius: 25px;
+}
+
+
 
 /*===============================================
                 Main
