@@ -41,6 +41,9 @@ header section h1 {
 }
 
 header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #999;
     padding: 15px 50px;
     font-family: Cinzel-Medium;
@@ -54,20 +57,18 @@ header nav p {
 }
 
 header nav ul {
-    display: inline-block;
-    text-align: right;
-    list-style: none;
-    width: 8%;
+    display: flex;
 }
 
 header nav ul li {
     display: inline-block;
-    padding: 2%;
+    padding: 0 0.3rem;
 }
 
 header ul li a img {
     width: 2rem;
     border-radius: 25px;
+    filter: grayscale(0.7);
 }
 
 
